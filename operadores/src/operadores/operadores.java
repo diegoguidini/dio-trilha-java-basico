@@ -6,7 +6,7 @@ public class operadores {
 				
 /*Operadores-Atrubuição*/
 		
-		String nome = "Diego";
+		String nome = "Diego Guidini";
 		int idade = 32;
 		char sexo = 'M';
 		boolean doadorOrgao = false;
