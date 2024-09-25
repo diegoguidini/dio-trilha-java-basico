@@ -7,7 +7,11 @@ public class SmartTv {
 	int canal = 1;
 	
 	public void ligar() {
-		// TODO Auto-generated method stub
+		ligada=true;
+		
+	}
+	public void desligar() {
+		ligada=false;
 		
 	}
 	
