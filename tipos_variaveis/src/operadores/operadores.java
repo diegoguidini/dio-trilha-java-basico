@@ -4,7 +4,7 @@ import java.util.Date;
 public class operadores {
 	public static void main(String[] args) throws Exception {
 				
-/*Operadores-Atrubuição*/
+//Operadores-Atrubuição
 		
 		String nome = "Diego Guidini";
 		int idade = 32;
@@ -18,7 +18,7 @@ public class operadores {
 				+ "Data execução %S",nome, idade, peso,sexo,dataNascimento, doadorOrgao,dtregistro);
 		
 
-/*Aritiméticos*/
+//Aritiméticos
 		
 		double soma = 10.5 + 7;
 		int subtração = 113 - 25;
@@ -27,6 +27,35 @@ public class operadores {
 		int modulo = 18 % 3;
 		double resultado = (10 * 7) + (20/4);
 
+		
+//operador unário
+		
+		// (+) Operador unário de valor positivo - Número são positivos sem esse operador explicitamente;
+		// (-) Operador unário de valor negativo - Nega um número ou expressão aritmética
+		// (++) Operador unário de incremento de valor - incrementa valor 1 unidade
+		// (--) Operador unário de decremento de valor - decrementa o valor em 1 unidade
+		// (!) Operador unário lógico de negação - nega o valor de uma expressão booleana.
+		
+
+//operador ternário
+		
+	int a, b;
+	a = 5;
+	b = 6;
+	String resultado1 = "";
+	
+	if (a==b)
+    	resultado1 = "verdadeiro";
+    else
+    	resultado1 = "falso";
+		
+    //Ternario: String resultado1 = a==b ?"verdadeiro" : "falso";
+	
+
+//Relacionais
+	
+	
+		
 	}
 }
 
