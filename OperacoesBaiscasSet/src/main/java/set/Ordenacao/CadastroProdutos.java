@@ -7,7 +7,7 @@ public class CadastroProdutos {
 	
 	private Set<Produto> produtoSet;
 	
-	public void cadastroProdutos() {
+	public CadastroProdutos() {
 		// TODO Auto-generated constructor stub
 	this.produtoSet = new HashSet<>();
 	}
@@ -42,11 +42,14 @@ public class CadastroProdutos {
 
 	    // Adicionando e exibindo produto
 	    cadastroProdutos.adicionarProduto(1, "caneta", 1.50, 1);
-	    cadastroProdutos.adicionarProduto(2, "lápis", 1.00, 2);
+	    cadastroProdutos.adicionarProduto(2, "lapis", 1.00, 2);
 	    cadastroProdutos.adicionarProduto(3, "borracha", 0.50, 3);
-	    cadastroProdutos.adicionarProduto(3, "borracha2", 0.30, 1);
+	    cadastroProdutos.adicionarProduto(4, "borracha2", 0.30, 1);
 	    
 	    System.out.println(cadastroProdutos.produtoSet);
+	    System.out.println(cadastroProdutos.exibirProdutosPorNome());
+	    System.out.println(cadastroProdutos.exibirProdutosPorPreco());
+	 
 	    
 	}
 }
